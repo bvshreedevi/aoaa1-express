@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 var cors = require('cors')
+const port = 3000;
 //const jwt = require('_helpers/jwt');
 
 const testRoute = require('./routes/test');
@@ -21,9 +22,7 @@ app.use('/test', testRoute);
 app.use('/user', userRoute);
 
 
-app.listen(3000, () => {
-    console.log('listening on port 3000');
-})
 
+app.listen(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`));
 
 module.exports = app;
