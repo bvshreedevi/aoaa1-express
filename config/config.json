@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "epiz_28372355",
+    "password": "Dre3Lv4ETSc74h",
+    "database": "epiz_28372355_test_aoaa",
+    "host": "sql209.epizy.com",
+    "dialect": "mysql"
+  
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "epiz_28372355",
+    "password": "Dre3Lv4ETSc74h",
+    "database": "epiz_28372355_test_aoaa",
+    "host": "sql209.epizy.com",
+    "dialect": "mysql"
+  }
+}
